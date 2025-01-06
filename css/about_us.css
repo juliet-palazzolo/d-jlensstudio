@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+}
+p{
+    font-family: "Fustat", serif;
+}
+.navbar{
+    height: 70px;
+    border-bottom: black 1.5px solid;
+    margin-top: 17px;
+    margin-bottom: 12px;
+}
+.navbar .navbar-nav .logo{
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+.navbar .logo a{
+    font-family: "Fustat", serif;
+}
+.container {
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hero-section {
+    position: relative;
+    height: 250px;
+    overflow: hidden;  
+}
+
+.hero-section .photography_1{
+    position: absolute;
+    width: 521px;
+    height: 161px;
+    top: 51px;
+    left: 644px;
+    z-index: 1;
+    object-fit: cover;
+}
+.hero-section h1{
+    color: #000000;
+    font-family: "Passion One", serif;
+    font-size: 88px;
+    font-weight: 900;
+    text-align: center;
+    width: 546px;
+    margin: 30px auto 0px;
+    z-index: 1;
+    left: 25%;
+    position: absolute;
+}
+
+.welcome-text {
+
+    font-size: 20px;
+    margin: 50px 0 200px;
+    line-height: 1.6;
+    max-width: 732px;
+    justify-content: center;
+    text-align: justify;
+
+    width: 732px;
+    height: 179px;
+    top: 427px;
+    left: 253px;
+    font-family: "Fustat", serif;
+
+}
+
+.image-section {
+    height: 600px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.left-images {
+    height: 600px !important;
+    max-height: 500px;
+    width: 45%;
+    position: relative;
+    overflow: hidden;  
+}
+.left-images .photography_2{
+    position: absolute;
+    width: 479px;
+    height: 432px;
+    top: 0px;
+    left: 110px;
+    z-index: 2;
+}
+.left-images .photography_3{
+    position: absolute;
+    width: 355px;
+    height: 207px;
+    top: 333px;
+    left: 0px;
+    z-index: 1;
+}
+.left-images .photography_4{
+    position: absolute;
+    width: 140px;
+    height: 171px;
+    top: 333px;
+    right: 60px;
+    z-index: 3;
+}
+
+.right-content {
+    height: 600px !important;
+    max-height: 500px;
+    width: 45%;
+    position: relative;
+    overflow: hidden;   
+}
+
+.right-content .photography_5{
+    position: absolute;
+    width: 681px;
+    height: 356px;
+    z-index: 6;
+}
+.right-content .photography_6{
+    position: absolute;
+    width: 154px;
+    height: 170px;
+    top: 250px;
+    left: 44px;
+    z-index: 7;
+}
+.right-content .photography_7{
+    position: absolute;
+    width: 293px;
+    height: 238px;
+    top: 300px;
+    right: 40px;
+    z-index: 5;
+}
+
+.section-title {
+    font-family: "Passion One", serif;
+    max-width: 539px;
+    font-size: 50px;
+    font-weight: bold;
+    font-weight: 900;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: justify;
+}
+.description-secondary {
+    max-width: 618px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.small-images {
+    display: flex;
+    gap: 10px;
+}
+
+.small-images img {
+    width: 48%;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FDAE4F;
+    
+    padding: 1rem;
+    border-top: 1px solid #eee;
+}
+
+footer .nav {
+    justify-content: space-around;
+}
+
+footer .nav-link {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+footer .nav-link:hover {
+    color: black;
+}
+
+footer .nav-link i {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
