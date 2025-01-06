@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Client Reviews</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/clientreview.css">
 </head>
 <body>
     <nav class="mx-4 navbar navbar-expand-lg">
@@ -17,7 +19,6 @@
                 <ul class="navbar-nav text-start">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">HOMEPAGE</a>
-                    </li>
                 </ul>
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item logo">
@@ -32,33 +33,27 @@
         </div>
     </nav>
 
-    <div class="content">
-        <div class="left-content">
-            <h1 class="portfolio-title">PORTFOLIO</h1>
-            <div class="category-menu">
-                <button class="active" data-category="travel">TRAVEL</button>
-                <button data-category="portrait">PORTRAIT </button>
-                <button data-category="artistic">ARTISTIC</button>
-                <button data-category="animals">ANIMALS</button>
+    <div class="content col-md-6">
+        <h1 class="title">CLIENT REVIEWS</h1>
+        
+        <div class="review-container">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i> 
             </div>
+            <div class="review-text">
+                "Absolutely blown away by the quality of the photos! The team captured every special moment with such creativity and attention to detail. Highly recommend them for any event!"
+            </div>
+            
         </div>
-
-        <div class="right-content">
-            <div class="image-caption">
-                Amazon Rainforest,<br>
-                photo by Gerard Smith
-            </div>
-            <div class="image-container">
-                <img src="images/portfolio/travel/5.jpg" alt="Maldivas beach" class="main-image">
-                <div class="navigation">
-                    <button class="nav-button">←</button>
-                    <button class="nav-button">→</button>
-                    <a href="portfolioviewall.html" class="view-all">VIEW ALL</a>
-                </div>
-            </div>
+        <div class="reviewer-name">Emily J. Thompson</div>
+        <div class="navigation">
+            <button class="nav-button" id="prevReview">←</button>
+            <button class="nav-button" id="nextReview">→</button>
         </div>
     </div>
-
-    
 </body>
 </html>

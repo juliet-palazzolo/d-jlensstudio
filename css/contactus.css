@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+.navbar{
+    height: 70px;
+    border-bottom: white 1.5px solid;
+    margin-top: 17px;
+    margin-bottom: 12px;
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar .navbar-nav .logo{
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+.navbar .logo a{
+    color: white;
+    font-family: "Fustat", serif;
+}
+
+.content-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.content-section h1{
+    font-family: "Passion One", serif;
+    font-size: 90px;
+    font-weight: 900;
+    text-align: right;
+    padding-right: 200px;
+    margin-bottom: -40px;
+    z-index: 3;
+    z-index: 1;
+    position: relative;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-form {
+    width: 100%;
+    font-family: "Fustat", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-form label{
+    font-size: 30px;
+    color: white;
+}
+.contact-form input{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    padding: 0.5rem 0;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.form-control:focus {
+    background: transparent;
+    color: white;
+    box-shadow: none;
+    border-color: #FFA500;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+.images-section .photography_1 {
+    margin-left: 140px;
+    width: 471px;
+    height: 152px;
+    top: 156px;
+    left: 977px;
+    object-fit: cover;
+}
+.images-section .photography_2 {
+    width: 500px;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    z-index: -1;
+    position: relative;
+}
+
+.page-title {
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    color: white;
+}
+
+.info-section {
+    background-color: white;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    text-align: center;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.info-item i {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+textarea.form-control {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.text-footer{
+    position: relative;
+}
+.text-footer h1{
+    position: absolute;
+    bottom: -40px;
+    left: 110px;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    font-family: "Passion One", serif;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2E4727;
+    padding: 1rem;  
+}
+
+footer .nav {
+    justify-content: space-around;
+}
+
+footer .nav-link {
+    color: #666;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer .nav-link i {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+    color: #7D903B;
+}
