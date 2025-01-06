@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+}
+p {
+    font-family: "Fustat", serif;
+}
+.navbar {
+    height: 70px;
+    border-bottom: black 1.5px solid;
+    margin-top: 17px;
+    margin-bottom: 12px;
+}
+.navbar .navbar-nav .logo {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+.navbar .logo a {
+    font-family: "Fustat", serif;
+}
+
+.homepage {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 14px;
+}
+.right-content{
+    height: 100px;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 60rem;
+}
+
+.left-content {
+    position: relative;
+    top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-title {
+    text-align: center;
+    font-family: "Passion One", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.category-menu {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.category-menu button {
+    font-family: "Fustat", serif;
+    border: none;
+    background: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color: #F58232;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.category-menu button.active {
+    font-weight: bold;
+}
+
+.image-caption {
+    font-family: "Fustat", serif;
+    text-align: right;
+    font-size: 20px;
+    font-style: italic;
+    color: #000;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+
+.main-image {
+    transition: opacity 0.6s ease-in-out;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.main-image.fade-out {
+    opacity: 0; 
+}
+
+.main-image.fade-in {
+    opacity: 1; 
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.nav-button {
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #000;
+    font-size: 18px;
+    transition: opacity 0.3s ease;
+}
+
+.nav-button:hover {
+    opacity: 0.8;
+}
+
+.view-all {
+    margin-left: auto;
+    background-color: #F58232;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.view-all::after {
+    content: "→";
+    margin-left: 8px;
+}
+
+.view-all:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
